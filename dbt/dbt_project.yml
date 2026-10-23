@@ -1,0 +1,13 @@
+name: portfolio_warehouse
+version: '1.0.0'
+config-version: 2
+profile: portfolio_warehouse
+model-paths: ["models"]
+test-paths: ["tests"]
+clean-targets: ["target", "dbt_packages"]
+models:
+  portfolio_warehouse:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
