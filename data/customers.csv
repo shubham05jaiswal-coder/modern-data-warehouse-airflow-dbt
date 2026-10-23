@@ -1,0 +1,6 @@
+customer_id,customer_name,email,city,signup_date
+1,Asha Rao,asha@example.test,Pune,2024-11-10
+2,Rohan Singh,rohan@example.test,Delhi,2024-12-01
+3,Meera Das,meera@example.test,Kolkata,2025-01-15
+4,Kabir Shah,kabir@example.test,Mumbai,2025-02-20
+5,Nisha Verma,nisha@example.test,Patna,2025-03-04
